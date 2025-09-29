@@ -400,14 +400,6 @@ docker-compose logs -f app
 docker-compose exec nginx tail -f /var/log/nginx/access.log
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ### Development Guidelines
 - Follow NestJS best practices
 - Write tests for new features
@@ -419,12 +411,6 @@ docker-compose exec nginx tail -f /var/log/nginx/access.log
 
 This project is [MIT licensed](LICENSE).
 
-## Support
-
-For issues and questions:
-- Create an issue in the GitHub repository
-- Check existing issues for solutions
-- Review the API documentation at `/api/docs`
 
 ---
 
