@@ -42,6 +42,32 @@ lerna-debug.log*
 .env.production.local
 .env.local
 
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis dumps
+dump.rdb
+
+# Docker volumes
+docker-data/
+postgres-data/
+redis-data/
+
+# Uploads
+uploads/
+public/uploads/
+
+# SSL certificates
+*.pem
+*.key
+*.crt
+
+# Backup files
+*.backup
+*.bak
+
 # temp directory
 .temp
 .tmp
@@ -54,3 +80,6 @@ pids
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+.claude/
+CLAUDE.md
